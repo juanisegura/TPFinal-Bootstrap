@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo final Bootstrap</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Computación</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#innovaciones">Innovaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#generaciones">Generaciones</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="inicio" class="text-center">
+    <div class="container">
+      <h1 class="display-4">La Historia de la Computación</h1>
+      <p class="lead">Desde los primeros dispositivos mecánicos hasta las tecnologías modernas.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./banner8-2020_l_1200x675.png" alt="Imagen 1" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#modal1">
+        </div>
+        <div class="col-md-4">
+          <img src="./computadorCuantico.jpeg" alt="Imagen 2" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#modal2">
+        </div>
+        <div class="col-md-4">
+          <img src="./tipos-de-tarjeta-madre.jpg" alt="Imagen 3" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#modal3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">Maquina de Turing</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./banner8-2020_l_1200x675.png" alt="Imagen 1" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal2Label">Computador Cuantico</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./computadorCuantico.jpeg" alt="Imagen 2" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3Label">Circuito de una Motherboard</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./tipos-de-tarjeta-madre.jpg" alt="Imagen 3" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="historia">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Historia</h2>
+          <p>La historia de la computación comenzó con los primeros dispositivos mecánicos como el ábaco, seguido por innovaciones significativas como la máquina de Turing en los años 30. Durante el siglo XX, se introdujeron las primeras computadoras electrónicas, como ENIAC en los años 40, y el desarrollo de los transistores en los años 50 permitió la creación de computadoras más pequeñas y eficientes. En los 70, la introducción del microprocesador dio lugar a la era de las computadoras personales.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./la-historia-la-computadora.webp" alt="Historia de la Computación" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="innovaciones">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./artificial-intelligence-6921404_1280.jpg" alt="Innovaciones en Computación" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Innovaciones Tecnológicas Actuales</h2>
+          <p>En la actualidad, la computación está impulsada por innovaciones como la inteligencia artificial, el aprendizaje automático, la computación en la nube, y la computación cuántica. Estas tecnologías están cambiando rápidamente la forma en que procesamos y analizamos grandes cantidades de datos, mejorando la eficiencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="generaciones">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Generaciones de Computadoras</h2>
+          <p>Las computadoras han evolucionado a través de varias generaciones, cada una marcada por avances tecnológicos significativos.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./hq720.jpg" alt="Generaciones de Computadoras" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <div class="container">
+      <p>© 2024 Historia de la Computación. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

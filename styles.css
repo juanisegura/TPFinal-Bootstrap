@@ -1,0 +1,31 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  #historia {
+    background-color: #f8f9fa;
+  }
+  
+  #innovaciones {
+    background-color: #e9ecef;
+  }
+  
+  #generaciones {
+    background-color: #f8f9fa;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .img-thumbnail {
+    cursor: pointer;
+  }
+  
+  
